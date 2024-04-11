@@ -21,5 +21,5 @@ To make it easy for others to copy this CSS Reset file, you can add a button in 
     .catch(error => {
       console.error('Error fetching CSS Reset file:', error);
       alert('Error copying CSS Reset file. Please try again.');
-    });"> +</button>
+    });"> 1212+</button>
 This will create a green "Copy CSS Reset" button that navigates users to the CSS Reset file in your repository, allowing them to easily copy and use it in their projects.

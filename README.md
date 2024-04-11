@@ -1,5 +1,5 @@
-CSS Reset file
-This is a comprehensive CSS Reset file that removes all default browser styles and provides a consistent baseline for web development. It resets styles for various HTML elements, addresses browser quirks and inconsistencies, and includes styles for handling text selection, form controls, and other common elements. Overall, it ensures a clean slate and consistent starting point for building cross-browser compatible web projects.
+<h1>CSS Reset file</h1>
+<p>This is a comprehensive CSS Reset file that removes all default browser styles and provides a consistent baseline for web development. It resets styles for various HTML elements, addresses browser quirks and inconsistencies, and includes styles for handling text selection, form controls, and other common elements. Overall, it ensures a clean slate and consistent starting point for building cross-browser compatible web projects.</p>
 
 ```bash
 /* Reset styles START */

@@ -6,20 +6,5 @@ To make it easy for others to copy this CSS Reset file, you can add a button in 
 
 [![Copy CSS Reset](https://img.shields.io/badge/Copy-CSS%20Reset-green?style=for-the-badge)](https://github.com/ZhekaGrem/CSS-reset/blob/main/RESET.css)
 
-<button onclick="copyResetCSS() {
-  fetch('https://raw.githubusercontent.com/ZhekaGrem/CSS-reset/main/RESET.css')
-    .then(response => response.text())
-    .then(data => {
-      const tempInput = document.createElement('textarea');
-      tempInput.value = data;
-      document.body.appendChild(tempInput);
-      tempInput.select();
-      document.execCommand('copy');
-      document.body.removeChild(tempInput);
-      alert('CSS Reset file copied to clipboard!');
-    })
-    .catch(error => {
-      console.error('Error fetching CSS Reset file:', error);
-      alert('Error copying CSS Reset file. Please try again.');
-    });"> 1212+</button>
+<button > wetfaw</button>
 This will create a green "Copy CSS Reset" button that navigates users to the CSS Reset file in your repository, allowing them to easily copy and use it in their projects.

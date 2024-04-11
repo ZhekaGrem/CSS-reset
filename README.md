@@ -248,4 +248,3 @@ p{
 /* Reset styles END */
 ```
 
-This will create a green "Copy CSS Reset" button that navigates users to the CSS Reset file in your repository, allowing them to easily copy and use it in their projects.

@@ -1,10 +1,6 @@
 CSS Reset file
 This is a comprehensive CSS Reset file that removes all default browser styles and provides a consistent baseline for web development. It resets styles for various HTML elements, addresses browser quirks and inconsistencies, and includes styles for handling text selection, form controls, and other common elements. Overall, it ensures a clean slate and consistent starting point for building cross-browser compatible web projects.
 
-To make it easy for others to copy this CSS Reset file, you can add a button in your GitHub repository's README.md file with the following Markdown code:
-
-[![OPEN Reset.css](https://img.shields.io/badge/Copy-CSS%20Reset-green?style=for-the-badge)](https://github.com/ZhekaGrem/CSS-reset/blob/main/RESET.css)
-
 ```bash
 /* Reset styles START */
 
@@ -82,8 +78,8 @@ textarea {
 
 audio, canvas, video { 
     display: inline-block; 
-    *display: inline; 
-    *zoom: 1; 
+    display: inline; 
+    zoom: 1; 
     max-width: 100%; 
 } 
 
@@ -138,14 +134,14 @@ legend {
     border: 0; 
     padding: 0; 
     white-space: normal; 
-    *margin-left: -7px; 
+    margin-left: -7px; 
 } 
 
 button, input, select, textarea { 
     font-size: 100%; 
     margin: 0; 
     vertical-align: baseline; 
-    *vertical-align: middle; 
+    vertical-align: middle; 
 } 
 
 button, input { 
@@ -159,7 +155,7 @@ button, select {
 button, html input[type="button"], input[type="reset"], input[type="submit"] { 
     -webkit-appearance: button; 
     cursor: pointer; 
-    *overflow: visible; 
+    overflow: visible; 
 } 
 
 button[disabled], html input[disabled] { 
@@ -169,8 +165,8 @@ button[disabled], html input[disabled] {
 input[type="checkbox"], input[type="radio"] { 
     box-sizing: border-box; 
     padding: 0; 
-    *height: 13px; 
-    *width: 13px; 
+    height: 13px; 
+    width: 13px; 
 } 
 
 input[type="search"] { 

@@ -4,6 +4,22 @@ This is a comprehensive CSS Reset file that removes all default browser styles a
 
 To make it easy for others to copy this CSS Reset file, you can add a button in your GitHub repository's README.md file with the following Markdown code:
 
-[![Copy CSS Reset](https://img.shields.io/badge/Copy-CSS%20Reset-green?style=for-the-badge)](javascript:void(prompt('', [Copy File URL](https://[raw.githubusercontent.com/username/repository/branch/path/to/file](https://github.com/ZhekaGrem/CSS-reset/blob/main/RESET.css))))
+[![Copy CSS Reset](https://img.shields.io/badge/Copy-CSS%20Reset-green?style=for-the-badge)](javascript:(function() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://raw.githubusercontent.com/ZhekaGrem/CSS-reset/main/RESET.css', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var content = xhr.responseText;
+            var copyText = document.createElement('textarea');
+            copyText.value = content;
+            document.body.appendChild(copyText);
+            copyText.select();
+            document.execCommand('copy');
+            document.body.removeChild(copyText);
+            alert('CSS Reset copied to clipboard!');
+        }
+    };
+    xhr.send();
+})())
 
 This will create a green "Copy CSS Reset" button that navigates users to the CSS Reset file in your repository, allowing them to easily copy and use it in their projects.

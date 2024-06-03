@@ -104,11 +104,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-a:focus { 
-    outline: thin dotted; 
-} 
-
 a:active, a:hover { 
     outline: 0; 
 } 

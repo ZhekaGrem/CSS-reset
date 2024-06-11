@@ -160,12 +160,6 @@ button[disabled], html input[disabled] {
     cursor: default; 
 } 
 
-input[type="checkbox"], input[type="radio"] { 
-    box-sizing: border-box; 
-    padding: 0; 
-    height: 13px; 
-    width: 13px; 
-} 
 
 input[type="search"] { 
     -webkit-appearance: textfield;
